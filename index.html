@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src= "script.js"></script>
+    <title>Jino</title>
+</head>
+
+<body>
+<p><b>Подтверждение аккаунта</b></p>
+<span>
+    Для подтверждения вашего аккаунта вам нужно заполнить все поля, подтвердить
+    почтовый ящик и телефон, а также загрузить сканы ваших документов.
+</span>
+<div class="block_all">
+    <div class="block">
+        <div class="picture load"></div>
+        <div>
+            <a href="#" id="upload">Загрузить скан страницы с фотографией</a>
+            <p class="under_text">Размер файла не более 5Мб</p>
+        </div>
+        <div class="result_none" id="negative">
+            <p class="result" id="resultNegative"></p>
+        </div>
+    </div>
+    <div class="block_result" id="resultBlock">
+        <div class="picture ok"></div>
+        <div>
+            <p class="text">страница с пропиской</p>
+            <p class="under_text" id="uploadItem"></p>
+        </div>
+        <p class="result" id="resultPositive"></p>
+    </div>
+</div>
+</body>
